@@ -21,9 +21,9 @@ document.getElementById('btn-clean').addEventListener("click", btnClean);
 
 
 function clickButton() {
-	//alert('Coucou '+ art1);
-	//basket.push(art1);
-	//basket.push(this.id);
+	alert('Coucou '+ art1);
+	basket.push(art1);
+	basket.push(this.id);
 		console.log("This came from "+this.id);
 	//var which = ""
 	if(this.id == "btn-1") {which=art1;}
