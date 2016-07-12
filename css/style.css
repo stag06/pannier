@@ -1,0 +1,93 @@
+/* en_tete */
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700,700italic,500italic);
+html {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+	background-color: #4CAF50;
+	padding: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #212121;
+	font-size: 2em
+}
+
+main{
+	 background-color: #B2EBF2;
+	 color: #212121;
+	 text-align: center;
+	 font-size: 1.5em;
+	 padding: 150px;
+}
+
+footer{
+	background-color: #B6B6B6;
+	color: #F4FFFD;
+	text-align: center;
+	padding: 40px;
+	font-size: 0.75em
+}
+
+#btn-1, #btn-2, #btn-3 { <!-- could use container-buttons--> 
+	background-color: yellow;
+	background-size: 100% 75%;
+	background-repeat: no-repeat;
+	border: none;
+	font-weight: bold;
+	color: black;
+	/*text-align: center;*/
+	width: 20%;
+	/*height: 170px;*/
+	padding: 20px;
+	padding-top: 200px;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: red;
+}
+
+
+#btn-1{
+	background-image: url(../img/tomatoe.jpg);
+	
+}
+
+#btn-2{
+	background-image: url(../img/Lobster.jpg);
+	
+}
+
+#btn-3{
+	background-image: url(../img/MeatPaste.jpg);
+	
+}
+
+#basket-text {
+	margin: 40px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+table {
+	margin:auto;
+	
+
+
+}
+
+td, th {
+	padding: 10px;
+	}
+
+.img-article {
+	text-align: center;
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	padding-left: 
+
+}
