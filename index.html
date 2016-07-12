@@ -3,14 +3,16 @@
 	<head>
 		
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--link rel="stylesheet" type="text/css" href="css/reset.css"  not needed any more with bootstrap-->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<!--script src="js/products.js"></script-->
+
 		<script src="js/products-table.js"></script>
 		<!-- Tab title-->
-		<title>My Basket Objects</title>
-		
+		<title>My Basket Objects WITH bootstrap</title>
 	</head>
 
 	<body>
@@ -21,13 +23,18 @@
 		</header>
 			
 		<!-- MAIN CONTENT -->
-		<main>
+		<main class="container-fluid">
 		<!-- main text body -->
 			<div id="container-buttons">
-				<button id="btn-1">Tomatoe €4</button>
-				<button id="btn-2">Lobster €30</button>
-				<button id="btn-3">Meat-Paste €12</button>
+				<div class="col-md-4 col-sm-12"><button id="btn-1">Tomatoe €4</button></div>
+				<div class="col-md-4 col-sm-12"><button id="btn-2">Lobster €30</button></div>
+				<div class="col-md-4 col-sm-12"><button id="btn-3">Meat-Paste €12</button></div>
+			</div>
 
+			<div class="row">
+				<div class="col-md-4 col-sm-12">Tomatoe €4</div>
+				<div class="col-md-4 col-sm-12">Lobster €30</div>
+				<div class="col-md-4 col-sm-12">Meat-Paste €12</div>
 			</div>
 
 			<div>
@@ -65,8 +72,8 @@
 		<footer>
 		footer text
 		</footer>
-		<!--script src="js/script.js"></script-->
-		<script src="js/script_to_fix.js"></script>		
+		<script src="js/script.js"></script>
+		<!-- script src="js/script_to_fix.js"></script -->		
 	</body>	
 
 </html>
